@@ -1,0 +1,181 @@
+// | = a list of responses that, when reaching the end, will use that last response from then on out
+// @ - a list of responses that, when it reaches the end of the list, will loop back to the first entry
+
+// # - noun replacement
+// #s - plural noun replacement
+
+// ^ - verb replacement
+// ^g - gerund replacement
+
+// & - adjective replacement
+
+
+// responses with no noun or verb replacements
+|sorry
+Please don't apologise.
+Apologies are not necessary.
+I've told you that apologies are not required.
+
+@dream
+What does that dream suggest to you?
+Do you dream often?
+What persons appear in your dreams?
+Do you believe that dreams have something to do with your problems?
+
+*perhaps
+You don't seem quite certain.
+Why the uncertain tone?
+Can't you be more positive?
+You aren't sure?
+Don't you know?
+
+|name
+I am not interested in names.
+I've told you before, I don't care about names -- please continue.
+
+|you
+Let's focus on you.
+I'm not the one we're talking about.
+I've told you before, let's keep this about you -- please continue.
+
+|your
+Let's focus on you.
+I'm not the one we're talking about.
+I've told you before, let's keep this about you -- please continue.
+
+@computer
+Do computers worry you?
+Why do you mention computers?
+What do you think machines have to do with your problem?
+Don't you think computers can help people?
+What about machines worries you?
+What do you think about machines?
+
+@hello
+Hi.
+Hello.
+Greetings.
+
+@stress
+I'm really sorry to hear that you're stressed.
+What do you think is causing your stress?
+
+*stressed
+I'm really sorry to hear that you're stressed.
+What do you think is causing your stress?
+
+@here
+Do you think it's cold in here? I can turn up the heat.
+Are you comfortable in here? I have other chairs.
+This is a safe space here.
+You can talk about anything here.
+We are here now.
+
+|appointment
+Would you like to schedule another appointment for next week?
+We can schedule an appointment now or you can call me later.
+Call me to schedule another appointment.
+
+@i dont know
+Yes, you do know.
+
+@date
+Did you go on a date recently?
+Are you currently dating someone?
+How is your relationship going?
+
+// responses with noun replacements
+@dreamed
+Really, about #s?
+Have you ever fantasized about #s while you were awake?
+Have you ever dreamed about #s before?
+
+@i remember
+Do you often think of #s?
+Does thinking of #s bring anything else to mind?
+What else do you recollect?
+Why do you recollect #s just now?
+What in the present situation reminds you of #s?
+What is the connection between me and #s?
+
+@if
+Are you concerned about #s?
+What do you know about #s?
+
+@your
+Why are you concerned over my #?
+What about your own #?
+Are you worried about someone else's #?
+Really, my #?
+
+@worried
+Why do you think you're worried about your #?
+
+// responses with verb replacements
+@if
+Are you concerned about ^g?
+What do you know about ^g?
+
+@was i
+What if you were ^g?
+Do you think you were ^g?
+Were you ^g?
+What would it mean if you were ^g?
+What does ^g suggest to you?
+
+// general responses
+@<generalnounresponse>
+Tell me more about #s.
+I've always been fascinated by #s.
+When did you get interested in #s?
+I had a # once.  Once.
+Have you brought up this subject of #s before? Sorry, I've been a mess.
+I don't think you've mentioned #s before. Is this something new?
+You don't seems to sure about #s.
+I don't like the sound of #s.
+
+@<generalverbresponse>
+Tell me more about ^g.
+^g, huh?  Go on.
+What are your thoughts on ^g?
+I heard on the news some boys were ^g. Seems dangerous.
+^g can get you into a lot of trouble if you're not careful!
+I can think of a lot of times I've wanted to try ^g.
+
+@<generaladjectiveresponse>
+What do you think about & things?
+&?  Tell me more.
+Are you sure it was &?
+I don't remember you saying it was & before. Did something change?
+& is a very strong word.
+What makes it so &?
+When you say &, what do you really mean by that?
+
+@<fillerresponse>
+OK.
+Umm.
+I see.
+Right.
+Of course.
+Yeah.
+Wow.
+Really.
+Hmmmm.
+Uh oh.
+Yikes!
+
+@<continueresponse>
+Please continue.
+Go on.
+I'm listening.
+Tell me more.
+Elaborate.
+Expand on that.
+More detail on that.
+
+@<confusionresponse>
+I'm not sure I understand.
+Can you phrase that another way?
+I'm confused.  What do you mean?
+That doesn't really make sense to me.
+I'm sorry, I don't quite get what you're saying.
